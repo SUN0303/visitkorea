@@ -1,0 +1,11 @@
+.list{
+    padding-top: 50px;
+}
+
+.list li{
+    padding:1px;
+    box-sizing: border-box; 
+}
+.list img{
+    width:100%;
+}

@@ -1,0 +1,45 @@
+#videWrap{
+    max-width: 1280px;
+    margin: 0 auto;
+    position: relative;
+    text-align: center;
+}
+
+.bannerM{
+    width: 500%;
+    margin-left: -25%;
+    position: relative;
+}
+
+.bannerM>li{
+    width: 10%;
+    float: left;
+}
+
+.bannerM>li>div{
+    padding: 30px 50px;
+    transition: 0.7s;
+}
+
+.bannerM>.active>div{
+    padding: 0;
+}
+
+.bannerM>li img{
+    width: 100%;
+}
+
+.arrow>li{
+    position: absolute;
+    bottom: 0;
+    background-color: white;
+    padding: 20px;
+}
+
+.arrow>.leftBtn{
+    left: 0;
+}
+
+.arrow>.rightBtn{
+    right: 0;
+}
